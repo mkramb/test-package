@@ -1,13 +1,13 @@
 {
   "name": "test-package-mkramb",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "main.js",
   "license": "MIT",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "release": "release-it patch --ci --no-git"
+    "release": "release-it patch --ci"
   },
   "dependencies": {
     "chalk": "^2.4.2"
