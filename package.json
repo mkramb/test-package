@@ -1,0 +1,15 @@
+{
+  "name": "test-package",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "release": "release-it patch --ci --no-git"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2"
+  },
+  "devDependencies": {
+    "release-it": "^12.4.1"
+  }
+}
