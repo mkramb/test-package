@@ -7,7 +7,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "release": "release-it patch --ci"
+    "release": "release-it patch --ci --no-git.requireUpstream"
   },
   "dependencies": {
     "chalk": "^2.4.2"
